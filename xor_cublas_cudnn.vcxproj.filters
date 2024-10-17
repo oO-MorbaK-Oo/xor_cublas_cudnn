@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{75a6499b-ea3c-4c0e-8426-30628bdc7ae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{bdddfe23-f359-474f-ac86-79072669e7e3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="src\activation.cu">
+      <Filter>src</Filter>
+    </CudaCompile>
+    <CudaCompile Include="src\global.cu">
+      <Filter>src</Filter>
+    </CudaCompile>
+    <CudaCompile Include="src\linear.cu">
+      <Filter>src</Filter>
+    </CudaCompile>
+    <CudaCompile Include="src\main.cu">
+      <Filter>src</Filter>
+    </CudaCompile>
+    <CudaCompile Include="src\tensor.cu">
+      <Filter>src</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\activation.cuh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dataset.cuh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\global.cuh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\layer.cuh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\linear.cuh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tensor.cuh">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
